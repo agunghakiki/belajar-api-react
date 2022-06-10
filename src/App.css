@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-color: rgb(234, 247, 255);
+	font-size: 16px;
+}
+
+.App {
+	width: 60%;
+	margin: 4rem auto;
+	height: 100vh;
+}
+
+.App-header {
+	text-align: center;
+ }
+
+.App-header p {
+	font-weight: bold;
+	color: rgb(0, 103, 172);
+	font-size: 21px;
+}
+
+.App-logo {
+width: 100px;
+}
+
+/* List Item */
+
+.todoItem {
+	background-color: #218DFD;
+	color: #fff;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0;
+	padding: 1rem 1rem;
+	border-radius: 3px;
+}
+
+
+
+.todoItem button:hover, 
+form > button:hover {
+	opacity: 0.9;
+}
+
+/* input */
+
+.input-form {
+	background: white;
+	padding: 0 1rem;
+ }
+
+form {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	align-items: center;
+ }
+ 
+input{
+	width: 100%;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0;
+	padding: 0.5rem 1rem;
+	border-radius: 3px;
+	border: none;
+}
+
+input::placeholder {
+	color: rgb(112, 112, 112);
+}
+
+.btn-success {
+	background-color: rgb(4, 114, 4);
+	color: #fff;
+	font-weight: 600;
+	margin: 0 3px;
+	padding: 8px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+ }
+
+ .btn-warning {
+	background-color: rgb(226, 31, 96);
+	color: #fff;
+	font-weight: 600;
+	margin: 0 3px;
+	padding: 8px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+ }
+
+ .btn-add {
+	background-color: rgb(134, 87, 243);
+	color: #fff;
+	font-weight: 600;
+	margin: 0 3px;
+	padding: 8px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+	height: 2rem;
+ }
+
+
+ .box {
+	 background-color: #dcedf7;
+	 width: 30%;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 padding: 2rem 2rem;
+	 border-radius: 5px;
+	 border: 1px solid rgb(203, 223, 236)
+ }
+
+
+ .box h3 {
+text-align: center;
+	color: #273740;
+
+}
+
+ .box p {
+	text-align: center;
+	padding-top: 1rem;
+	font-size: 14px;
+	color: #405059;
+}
+
+.box p span {
+		color: #9e4ec3;
+		cursor: pointer;
+}
+
+.box button {
+	display: block;
+	margin: 0 auto;
+}
+
+
